@@ -1,1 +1,2 @@
 - git: {local-name: wvu_vo_ros, uri: 'https://github.com/wvu-irl/wvu_vo_ros.git'}
+- git: {local-name: src2-smach, uri: 'https://github.com/wvu-navLab/SRC2-smach', version: simple_sm}
