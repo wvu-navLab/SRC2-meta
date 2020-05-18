@@ -9,11 +9,13 @@ TODO
 This is an example of how to install packages and setup a new workspace. 
 
 
+
 **Download repository containing .rosinstall files**
 
 First, download the repository containing the .rosinstall files:
 
 `$ git clone https://github.com/wvu-navLab/SRC2-meta` 
+ 
  
  
 **Create workspace** 
@@ -35,6 +37,7 @@ Or, create the workspace using `catkin build`:
  `$ catkin build`
 
 
+
 **Install with wstool**
 
  Now, install packages using `wstool`:
@@ -44,6 +47,7 @@ Or, create the workspace using `catkin build`:
  `$ wstool init src /path/to/meta.rosinstall`
  
  
+ 
 **Build packages**
  
  If using catkin_make:
@@ -51,6 +55,7 @@ Or, create the workspace using `catkin build`:
   `$ cd ~/my_ws`
   
   `$ catkin_make`
+  
   
   
 **Ignoring packages**
