@@ -11,7 +11,7 @@ This is an example of how to install packages and setup a new workspace.
 
 First, create the workspace directory:  
  
- `$ mkdir -p ~/my_ws/src`  
+ `$ mkdir ~/my_ws`  
  `$ cd ~/my_ws`  
   
 **Download repository containing .rosinstall files**
