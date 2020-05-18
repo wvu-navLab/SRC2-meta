@@ -1,4 +1,3 @@
-
 # SRC2-meta
 SRC2 competition metarepository
 
@@ -7,32 +6,29 @@ TODO
 
 ## Install 
 This is an example of how to install packages and setup a new workspace. 
-
-**Download repository containing .rosinstall files**
-
-First, download the repository containing the .rosinstall files:  
-`$ git clone https://github.com/wvu-navLab/SRC2-meta`
    
 **Create workspace**  
 
- Now, create the workspace using `catkin_make`:  
+First, create the workspace directory:  
  
  `$ mkdir -p ~/my_ws/src`  
  `$ cd ~/my_ws`  
- `$ catkin_make`
- 
-Or, create the workspace using `catkin build`:  
+  
+**Download repository containing .rosinstall files**
 
- `$ mkdir -p ~/my_ws/src`  
- `$ cd ~/my_ws`  
- `$ catkin build`  
+Now, download the repository containing the `.rosinstall`. The following command will create the `src` folder (not yet created) and clone the meta repository inside the created `src` folder.   
+`$ cd ~/my_ws`  
+`$ git clone https://github.com/wvu-navLab/SRC2-meta src`
   
 **Install with wstool**  
 
  Now, install packages using `wstool`:  
  
- `$ cd ~/my_ws`  
- `$ wstool init src /path/to/meta.rosinstall`  
+ `$ cd ~/my_ws/src`  
+ `$ wstool init . meta.rosinstall`  
+   
+ where the arguments `$ wstool init /folder/to/init /path/to/.rosinstall`  
+   
    
 **Build packages**  
 
