@@ -41,12 +41,17 @@ Or, create the workspace using `catkin build`:
   `$ cd ~/my_ws`  
   `$ catkin_make`  
   
+ If using catkin build:
+ 
+  `$ cd ~/my_ws`  
+  `$ catkin build`  
+  
 **Ignoring packages**  
 
 To ignore a package, add an empty file called   `CATKIN_IGNORE` in the package directory, and delete the file to stop ignoring. For example, to ignore the `wvu_vo_ros` package:  
 
-  `$ cd ~/my_ws/src/wvu_vo_ros`
-  `$ touch CATKIN_IGNORE`  
+  `$ cd ~/my_ws/src/wvu_vo_ros`  
+  `$ touch CATKIN_IGNORE`    
 
 If using catkin build, blacklist packages to ignore. For example, to ignore `wvu_vo_ros`:  
 
