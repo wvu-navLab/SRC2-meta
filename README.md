@@ -15,7 +15,7 @@ First, download the repository containing the .rosinstall files:
    
 **Create workspace**  
 
- Now, create the workspace `catkin_make`:  
+ Now, create the workspace using `catkin_make`:  
  
  `$ mkdir -p ~/my_ws/src`  
  `$ cd ~/my_ws`  
