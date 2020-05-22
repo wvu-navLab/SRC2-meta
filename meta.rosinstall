@@ -3,3 +3,7 @@
 - git: {local-name: SRC2, uri: 'https://github.com/wvu-navLab/SRC2'}
 - git: {local-name: SRC2-manipulation, uri: 'https://github.com/wvu-navLab/SRC2-manipulation'}
 - git: {local-name: SRC2-multiagent, uri:'https://github.com/wvu-navLab/SRC2-multiagent'}
+- git: {local-name: SRC2-crater-detection, uri:'https://github.com/wvu-navLab/SRC2-crater-detection.git'}
+- git: {local-name: SRC2-round1-volatiles-handler, uri:'https://github.com/wvu-navLab/SRC2-round1-volatiles-handler.git'}
+- git: {local-name" SRC2-round2-volatile-handler, uri:'https://github.com/wvu-navLab/SRC2-round2-volatile-handler.git'}
+
