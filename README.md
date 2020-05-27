@@ -2,7 +2,7 @@
 SRC2 competition metarepository
 
 ## Dependencies
-TODO
+**vo.rosinstall:** C++11 and OpenCV 3.0 or greater 
 
 ## Install 
 This is an example of how to install packages and setup a new workspace. 
