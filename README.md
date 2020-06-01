@@ -2,7 +2,7 @@
 SRC2 competition metarepository
 
 ## Dependencies
-**vo.rosinstall:** ROS Kinetic or greater (requires `ros-(version)-ros-base`, `ros-(version)-cv-bridge`, `ros-(version)-nav-msgs`, `ros-(version)-sensor-msgs`, `ros-(version)-tf`), OpenCV 3.0 or greater, and C++11. To install OpenCV, an install script is provided [here](https://github.com/wvu-irl/wvu_vo/blob/master/scripts/install_opencv.sh).
+**vo.rosinstall:** ROS Kinetic or greater (with `ros-(version)-ros-base`, `ros-(version)-cv-bridge`, `ros-(version)-nav-msgs`, `ros-(version)-sensor-msgs`, `ros-(version)-tf`), OpenCV 3.0 or greater, and C++11. To install OpenCV, an install script is provided [here](https://github.com/wvu-irl/wvu_vo/blob/master/scripts/install_opencv.sh).
 
 ## Install 
 This is an example of how to install packages and setup a new workspace. 
