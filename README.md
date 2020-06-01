@@ -2,7 +2,7 @@
 SRC2 competition metarepository
 
 ## Dependencies
-**vo.rosinstall:** C++11 and OpenCV 3.0 or greater 
+**vo.rosinstall:** C++11 and OpenCV 3.0 or greater. To install OpenCV, an install script is provided [here](https://github.com/wvu-irl/wvu_vo/blob/master/scripts/install_opencv.sh).
 
 ## Install 
 This is an example of how to install packages and setup a new workspace. 
