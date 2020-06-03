@@ -1,8 +1,8 @@
 - git: {local-name: wvu_vo_ros, uri: 'https://github.com/wvu-irl/wvu_vo_ros.git'}
 - git: {local-name: SRC2-smach, uri: 'https://github.com/wvu-navLab/SRC2-smach', version: simple_sm}
 - git: {local-name: SRC2, uri: 'https://github.com/wvu-navLab/SRC2'}
-- git: {local-name: SRC2-driving, uri: 'https://github.com/wvu-navLab/SRC2'}
-- git: {local-name: SRC2-manipulation, uri: 'https://github.com/wvu-navLab/SRC2-manipulation'}
+- git: {local-name: SRC2-driving, uri: 'https://github.com/wvu-navLab/SRC2-driving.git'}
+- git: {local-name: SRC2-manipulation, uri: 'https://github.com/wvu-navLab/SRC2-manipulation.git'}
 - git: {local-name: SRC2-multiagent, uri: 'https://github.com/wvu-navLab/SRC2-multiagent.git'}
 - git: {local-name: SRC2-crater-detection, uri: 'https://github.com/wvu-navLab/SRC2-crater-detection.git'}
 - git: {local-name: SRC2-round1-volatiles-handler, uri: 'https://github.com/wvu-navLab/SRC2-round1-volatiles-handler.git'}
