@@ -1,6 +1,3 @@
-- git: {local-name: SRC2-localization, uri: 'https://github.com/wvu-navLab/SRC2-localization.git'}
 - git: {local-name: SRC2-driving, uri: 'https://github.com/wvu-navLab/SRC2-driving.git'}
 - git: {local-name: SRC2-manipulation, uri: 'https://github.com/wvu-navLab/SRC2-manipulation.git'}
-- git: {local-name: SRC2-multiagent, uri: 'https://github.com/wvu-navLab/SRC2-multiagent.git'}
-- git: {local-name: SRC2-crater-detection, uri: 'https://github.com/wvu-navLab/SRC2-crater-detection.git'}
 - git: {local-name: SRC2-round2-volatile-handler, uri: 'https://github.com/wvu-navLab/SRC2-round2-volatile-handler.git'}
