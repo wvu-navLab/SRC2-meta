@@ -1,0 +1,8 @@
+- git: {local-name: SRC2-smach, uri: 'https://github.com/wvu-navLab/SRC2-smach', version: hackathon}
+- git: {local-name: SRC2-gazebo-truth-odom, uri: 'https://github.com/wvu-navLab/SRC2-gazebo-truth-odom.git'}
+- git: {local-name: SRC2-localization-wo, uri: 'https://github.com/wvu-navLab/SRC2-localization-wo.git'}
+- git: {local-name: SRC2-localization-poseUpdate, uri: 'https://github.com/wvu-navLab/SRC2-localization-poseUpdate.git'}
+- git: {local-name: SRC2-round1-volatiles-handler, uri: 'https://github.com/wvu-navLab/SRC2-round1-volatiles-handler.git', version: hackathon}
+- git: {local-name: SRC2-sensor-fusion, uri: 'https://github.com/wvu-navLab/SRC2-sensor-fusion.git'}
+- git: {local-name: SRC2-planning, uri: 'https://github.com/wvu-navLab/SRC2-planning.git'}
+- git: {local-name: SRC2-driving, uri: 'https://github.com/wvu-navLab/SRC2-driving.git'}
