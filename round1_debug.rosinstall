@@ -6,7 +6,7 @@
 - git: {local-name: SRC2-move_base, uri: 'https://github.com/wvu-navLab/SRC2-move_base.git'}
 - git: {local-name: SRC2-move_base_planners, uri: 'https://github.com/wvu-navLab/SRC2-move_base_planners.git'}
 - git: {local-name: SRC2-object-detection, uri: 'https://github.com/wvu-navLab/SRC2-object-detection.git'}
-- git: {local-name: SRC2-pcl-object-detection, uri: 'https://github.com/wvu-navLab/SRC2-pcl-obstacle-detection.git'}
+- git: {local-name: SRC2-pcl-obstacle-detection, uri: 'https://github.com/wvu-navLab/SRC2-pcl-obstacle-detection.git'}
 - git: {local-name: SRC2-planning, uri: 'https://github.com/wvu-navLab/SRC2-planning.git'}
 - git: {local-name: SRC2-round1-volatiles-handler, uri: 'https://github.com/wvu-navLab/SRC2-round1-volatiles-handler.git', version: hackathon}
 - git: {local-name: SRC2-Sensor-Fusion, uri: 'https://github.com/wvu-navLab/SRC2-Sensor-Fusion.git.git'}
