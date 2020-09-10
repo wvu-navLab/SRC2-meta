@@ -9,6 +9,6 @@
 - git: {local-name: SRC2-pcl-obstacle-detection, uri: 'https://github.com/wvu-navLab/SRC2-pcl-obstacle-detection.git'}
 - git: {local-name: SRC2-planning, uri: 'https://github.com/wvu-navLab/SRC2-planning.git'}
 - git: {local-name: SRC2-round1-volatiles-handler, uri: 'https://github.com/wvu-navLab/SRC2-round1-volatiles-handler.git'}
-- git: {local-name: SRC2-Sensor-Fusion, uri: 'https://github.com/wvu-navLab/SRC2-Sensor-Fusion.git.git'}
+- git: {local-name: SRC2-Sensor-Fusion, uri: 'https://github.com/wvu-navLab/SRC2-Sensor-Fusion.git'}
 - git: {local-name: SRC2-smach, uri: 'https://github.com/wvu-navLab/SRC2-smach', version: hackathon}
 - git: {local-name: SRC2-vo-ros, uri: 'https://github.com/wvu-navLab/SRC2-vo-ros.git'}
