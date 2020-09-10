@@ -63,3 +63,11 @@ To ignore all packages except a specific list, whitelist packages to compile. Fo
   
    `$ catkin config --no-blacklist`  
    `$ catkin config --no-whitelist`  
+
+**Credential Helpers**  
+
+If the .rosinstall contains many packages, either SSH keys can be used or a credential helper. To cache credentials, use the following command:  
+
+  `$ git config --global credential.helper cache`   
+
+This tells git to keep the password in memory for 15 minutes (by default), but the timeout or other seetings can be modified. See [Credential Storage](https://git-scm.com/book/en/v2/Git-Tools-Credential-Storage) for more details.  
