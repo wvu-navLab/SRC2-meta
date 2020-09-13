@@ -2,7 +2,7 @@
 SRC2 competition metarepository
 
 ## Dependencies
-Install [wstool](http://wiki.ros.org/wstool):
+Install [wstool](http://wiki.ros.org/wstool):  
 `sudo apt install python-wstool`
 
 Install [catkin_tools](https://catkin-tools.readthedocs.io/en/latest/installing.html) (if using catkin build):  
