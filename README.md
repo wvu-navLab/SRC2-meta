@@ -5,7 +5,7 @@ SRC2 competition metarepository
 Install [wstool](http://wiki.ros.org/wstool):
 `sudo apt install python-wstool`
 
-Install [catkin_tools](https://catkin-tools.readthedocs.io/en/latest/installing.html) (if using catkin build):
+Install [catkin_tools](https://catkin-tools.readthedocs.io/en/latest/installing.html) (if using catkin build):  
 `sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu `lsb_release -sc` main" > /etc/apt/sources.list.d/ros-latest.list'`  
 `wget http://packages.ros.org/ros.key -O - | sudo apt-key add -`  
 `sudo apt-get update`  
