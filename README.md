@@ -26,7 +26,7 @@ Now, download the repository containing the `.rosinstall`. The following command
 `$ cd ~/my_ws`  
 `$ git clone https://github.com/wvu-navLab/SRC2-meta src`
   
-**Install with wstool**  
+**Install with wstool (from file)**  
 
  Now, install packages using `wstool`:  
  
@@ -35,7 +35,7 @@ Now, download the repository containing the `.rosinstall`. The following command
    
  where the arguments `$ wstool init /folder/to/init /path/to/.rosinstall`  
    
-**Initialize with wstool (from URL)**  
+**Install with wstool (from URL)**  
 
  Instead of cloning the repository containing the .rosinstall file (or downloading). The workspace can be installed using the url for the raw file. For example:  
  
