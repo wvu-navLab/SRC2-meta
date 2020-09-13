@@ -2,6 +2,15 @@
 SRC2 competition metarepository
 
 ## Dependencies
+Install [wstool](http://wiki.ros.org/wstool):
+`sudo apt install python-wstool`
+
+Install [catkin_tools](https://catkin-tools.readthedocs.io/en/latest/installing.html) (if using catkin build):
+`sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu `lsb_release -sc` main" > /etc/apt/sources.list.d/ros-latest.list'`  
+`wget http://packages.ros.org/ros.key -O - | sudo apt-key add -`  
+`sudo apt-get update`  
+`sudo apt-get install python-catkin-tools`  
+
 **vo.rosinstall:** ROS Melodic or greater (with `ros-(version)-ros-base`, `ros-(version)-cv-bridge`, `ros-(version)-gazebo-msgs`, `ros-(version)-image-transport`, `ros-(version)-tf`, OpenCV 3.2.0 or greater, and C++11. ~~To install OpenCV, an install script is provided [here](https://github.com/wvu-irl/wvu_vo/blob/master/scripts/install_opencv.sh).~~ OpenCV no longer needs installed separately as OpenCV 3.2.0 is installed by default along with the ROS packages. To check OpenCV version, run `pkg-config --modversion opencv` to check if version 3.2.0 is installed.
 
 **round1_debug.rosinstall:** ROS Melodic (with `ros-(version)-ros-base`, `ros-(version)-cv-bridge`, `ros-(version)-gazebo-msgs`, `ros-(version)-image-transport`, `ros-(version)-tf`, `ros-(version)-pcl-conversions`, `ros-(version)-costmap-2d`, `ros-(version)-pcl-ros`, `ros-(version)-nav-core`, `ros-(version)-base-local-planner`, `ros-(version)-tf2-geometry-msgs`, `ros-(version)-tf2-sensor-msgs`, `ros-(version)-navfn`, `ros-(version)-realtime-tools`, `ros-(version)-move-base-msgs`, OpenCV 3.2.0, and C++11. The require version of OpenCV is installed automatically along with ROS melodic. To check OpenCV version, run `pkg-config --modversion opencv` to check if version 3.2.0 is installed.
