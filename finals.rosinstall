@@ -13,4 +13,5 @@
 - git: {local-name: SRC2-vo-ros, uri: 'https://github.com/wvu-navLab/SRC2-vo-ros.git'}
 - git: {local-name: SRC2-volatiles, uri: 'https://github.com/wvu-navLab/SRC2-volatiles'}
 - git: {local-name: SRC2-waypoint-checker, uri: 'https://github.com/wvu-navLab/SRC2-waypoint-checker.git'}
-- git: {local-name: SRC2-gazebo-truth-odom, uri: 'https://github.com/wvu-navLab/SRC2-gazebo-truth-odom.git'}
+- git: {local-name: SRC2-waypoint-nav, uri: 'https://github.com/wvu-navLab/SRC2-waypoint-nav.git'}
+
